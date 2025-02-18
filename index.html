@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuey Long - Resume</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        :root {
+            --primary: #4A90E2;
+            --secondary: #F5F7FA;
+            --text: #2D3436;
+            --light-text: #636E72;
+            --border: #DFE6E9;
+        }
+
+        body {
+            background: var(--secondary);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 2rem;
+        }
+
+        .resume-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            overflow: hidden;
+            display: grid;
+            grid-template-columns: 300px 1fr;
+        }
+
+        .sidebar {
+            background: var(--primary);
+            color: white;
+            padding: 2rem;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-bottom: 1rem;
+            object-fit: cover;
+        }
+
+        .contact-info {
+            margin-bottom: 2rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.75rem;
+            font-size: 0.9rem;
+        }
+
+        .skills-section h3 {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .skill-item {
+            margin-bottom: 0.75rem;
+            font-size: 0.9rem;
+        }
+
+        .main-content {
+            padding: 2rem;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--border);
+        }
+
+        .experience-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .experience-title {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .experience-period {
+            color: var(--light-text);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .language-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .resume-container {
+                grid-template-columns: 1fr;
+            }
+
+            body {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="photo_2025-02-18_23-27-20.jpg" alt="Sreynuth Huon" class="profile-pic">
+                <h2>Yuey Long</h2>
+                <p>Business management & English for education  Student</p>
+            </div>
+
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>longyouy85@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+855 96 362 2687</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Phnom Penh, Cambodia</span>
+                </div>
+                
+            </div>
+
+            <div class="skills-section">
+                <h3>Technical Skills</h3>
+                <div class="skill-item">• Microsoft Word</div>
+                <div class="skill-item">•  Microsoft Excel</div>
+                <div class="skill-item">•  Microsoft Powerpoint</div>
+                <div class="skill-item">• GoogleDocs (collaboration)</div>
+                <div class="skill-item">•  fast Typing speed</div>
+            </div>
+
+            <div class="skills-section">
+                <h3>Languages</h3>
+                <div class="language-item">
+                    <span>English</span>
+                    <span>Fluent</span>
+                </div>
+                <div class="language-item">
+                    <span>Khmer</span>
+                    <span>Native</span>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <section class="section">
+                <h2 class="section-title">About Me</h2>
+                <p>I am a dedicated student majoring in Business and English for Education, with a strong passion for learning new skills and collaborating with diverse individuals. I thrive in dynamic environments, enjoy exploring new knowledge areas, and continuously seek opportunities to grow both personally and professionally.</p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Education</h2>
+                <div class="experience-item">
+                    <h3 class="experience-title">highschol</h3>
+                    <div class="experience-period">Hunsen Borey 100 Khnang Highschool </div>
+                    <div class="experience-period">2018 - 2023</div>
+                    <h3 class="experience-title">University</h3>
+                    <div class="experience-period">AGA INSTITUTE</div>
+                    <div class="experience-period">2024 - present</div>
+                    <div class="experience-period">University of Cambodia</div>
+                    <div class="experience-period">2025 - </div>
+
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Soft Skill </h2>
+                <div class="experience-item">
+                  <p>Communication Skills</p>
+                  <p>Teamwork & Collaboration</p>
+                  <p>Adaptability & Flexibility</p>
+                  <p>Problem-Solving</p>
+                  <p>Time Management</p>
+                  <p> Leadership & Initiative </p>
+                  <p>Critical Thinking </p>
+
+                </div>
